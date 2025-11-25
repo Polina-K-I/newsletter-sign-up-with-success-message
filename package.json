@@ -1,0 +1,25 @@
+{
+  "name": "newsletter-sign-up-with-success-message-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Newsletter sign-up form with success message coding challenge](./preview.jpg)",
+  "homepage": "https://github.com/Polina-K-I/newsletter-sign-up-with-success-message#readme",
+  "bugs": {
+    "url": "https://github.com/Polina-K-I/newsletter-sign-up-with-success-message/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polina-K-I/newsletter-sign-up-with-success-message.git"
+  },
+  "license": "ISC",
+  "author": "Polina-K-I",
+  "type": "commonjs",
+  "main": "success.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "sass": "^1.93.2",
+    "vite": "^7.1.11"
+  }
+}
