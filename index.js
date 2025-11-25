@@ -9,7 +9,7 @@ const image = document.getElementById("image");
 function validateEmail() {
   if (regex.test(emailInput.value)) {
     sessionStorage.setItem("email", emailInput.value);
-    window.location.href = "/success.html";
+    window.location.href = "success.html";
   } else {
     emailInput.classList.add("error");
 
@@ -28,3 +28,5 @@ if (emailConfirmation) {
 if (window.innerWidth < 400) {
   image.src = "assets/images/illustration-sign-up-mobile.svg";
 }
+
+window.validateEmail = validateEmail;
